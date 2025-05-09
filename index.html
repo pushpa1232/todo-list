@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="todo-app">
+    <h1 class="app-title">🌟 To-Do List 🌟</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Enter a task..." />
+      <button id="addTaskButton">➕ Add Task</button>
+    </div>
+    <div class="task-sections">
+      <div class="tasks">
+        <h2>📝 Pending Tasks</h2>
+        <ul id="taskList"></ul>
+      </div>
+    </div>
+    <button id="completedTasksButton" class="completed-tasks-btn">View Completed Tasks</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
